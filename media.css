@@ -349,7 +349,7 @@ body{
     display: none;
 }
 
-@media(width:768px){
+@media screen and (min-width: 577px) and (max-width: 768px){
     .header{
         padding: 38px 39px;
     }
@@ -482,7 +482,7 @@ body{
 }
 
 
-@media(width: 576px){
+@media screen and (min-width: 321px) and (max-width: 576px){
     .header{
         display: block;
         padding: 16px 33px 16px 33px;
@@ -689,7 +689,7 @@ body{
     }
 }
 
-@media (width:320px){
+@media screen and (max-width: 320px){
     .header{
         display: block;
         padding:0;
