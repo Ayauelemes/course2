@@ -1,0 +1,66 @@
+.shadow-box {
+    width: 200px;
+    height: 200px;
+    background-color:#f05281;
+    box-shadow: 20px 20px 15px 0px rgba(255, 151, 151, 0.3);
+    /*тени к блокам*/
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 200px;
+    height: 400px;
+    background-color:rgba(12, 22, 128, 0.791);
+    box-shadow: 10px 10px 15px 0px rgba(114, 148, 240, 0.3);
+}
+
+.title{
+    color: darkred;
+    text-shadow: 20px 20px 15px 20px rgba(255, 255, 255, 0.5);
+    /*тени к тексту, 20px 20px - смещение тени, 15px - размытие и т.д.*/
+}
+
+.subtitle{
+    color: white;
+    text-shadow: 10px 10px 15px 0px rgba(255, 255, 255, 0.5);
+}
+
+.box{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(to right, #e8e53e, #3b378f);
+    /*градиент к блоку, to right - направление градиента, далее цвета градиента*/
+    margin-bottom: 15px;
+}
+
+.div{
+     width: 400px;
+    height: 200px;
+    background: linear-gradient(to bottom, #e8e53e, #3b378f);
+    /*градиент к блоку, to bottom - направление градиента, далее цвета градиента*/
+    margin-bottom: 15px;
+}
+
+
+.card{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(ellipse , #35e9f6, #150c95, #040728);
+    /*градиент к блоку, ellipse - форма градиента, далее цвета градиента*/
+    margin-bottom: 15px;
+}
+
+.element{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle , #addc36, #1ea107, #02260a);
+    /*градиент к блоку, circle - форма градиента, далее цвета градиента*/
+    margin-bottom: 15px;
+}
+
