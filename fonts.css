@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+/*через импорт подключаем шрифты из гугл фонтс*/
+
+.h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.p{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face { 
+    /* подключаем локальный шрифт */
+    font-family: "MyFont";
+    src: url(./Playwrite_GB_S_Guides/PlaywriteGBSGuides-Italic.ttf);
+}
+
+.p2{
+    font-family: MyFont;
+    color: cadetblue;
+}
+
+.h2{
+    font-family: "Dancing Script","Oswald","MyFont";
+    font-weight: 700;
+}
