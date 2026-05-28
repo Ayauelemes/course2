@@ -1,0 +1,72 @@
+.animation-box {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(15, 115, 105);
+    animation: rotate 2s infinite;
+    /*бұл жерде анимация поворота 2 секундқа созылады және шексіз қайталанады*/
+    transform: scale(1.5);
+    /*бұл жерде элемент 1.5 есе үлкейтіледі*/
+    margin: 50px;
+    
+    
+}
+
+@keyframes rotate {
+    /*бұл жерде анимацияның бастапқы және соңғы күйі анықталады*/
+    0% { transform: rotate(0deg)
+        /*бұл жерде элемент 0 градусқа айналады*/
+        scale(1.5) 
+        /*бұл жерде элемент 1.5 есе үлкейтіледі*/
+        translateX(5px) 
+        /*бұл жерде элемент 5 пиксельге оңға жылжиды*/
+        translateY(6px) 
+        /*бұл жерде элемент 6 пиксельге төмен жылжиды*/
+        skew(10deg); 
+        /*бұл жерде элемент 10 градусқа қисаюы*/ 
+    }
+    100% { transform: rotate(360deg) 
+        /*бұл жерде элемент 360 градусқа айналады, яғни толық айналым жасайды*/
+        scale(1.5) 
+        /*бұл жерде элемент 1.5 есе үлкейтіледі*/
+        translateX(100px) 
+        /*бұл жерде элемент 100 пиксельге оңға жылжиды*/
+        translateY(100px) 
+        /*бұл жерде элемент 100 пиксельге төмен жылжиды*/
+        skew(10deg); 
+        /*бұл жерде элемент 10 градусқа қисаяды*/ 
+    }
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: rgb(115, 15, 15);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /*бұл жерде кнопканың фонының өзгеруіне 0.3 секундты қосамыз*/
+    animation: button 0.5s infinite;
+    /*бұл жерде кнопканың анимациясы 0.5 секунд болады және шексіз қайталанады*/
+}
+.button:hover {
+    background-color: rgb(7, 92, 17);
+}
+
+@keyframes button {
+    0% { transform: scale(1) translateX(5px) }
+    50% { transform: scale(1.2) translateY(5px) }
+    100% { transform: scale(1) }
+}
+
+.element{
+    width: 200px;
+    height: 100px;
+    background-color: cornflowerblue;
+    animation: element 3s infinite;
+    margin: 30px;
+}
+
+@keyframes element{
+    0%{transform: translateY(0) scale(1);}
+    100%{transform: translateY(100px) scale(1.5);}
+}
