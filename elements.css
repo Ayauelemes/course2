@@ -1,0 +1,47 @@
+.p::before{
+    /*бұл жерде ::before псевдоэлементін қолданамыз, ол элементтің алдында мазмұн қосaды*/
+    content: "Lesson 25";
+    color: slateblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.paragraph::first-letter{
+    /*бұл жерде ::first-letter псевдоэлементін қолданамыз, ол элементтің бірінші әрпін стильдеуге мүмкіндік береді*/
+    color: red;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.heading::after{
+    /*бұл жерде ::after псевдоэлементін қолданамыз, ол элементтің соңында мазмұн қосaды*/
+    content: "->,❤️";
+    color: blue;
+    font-weight: bold;
+    font-size:15px;
+    margin-top: 10px;
+    display: block;
+}
+
+.container::before{
+    /*бұл жерде ::before псевдоэлементін қолданамыз, ол элементтің алдында мазмұн қосaды*/
+    content: "My Container";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.container::after{
+    /*бұл жерде ::after псевдоэлементін қолданамыз, ол элементтің соңында мазмұн қосaды*/
+    content: "End of Container";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 20px;
+}
