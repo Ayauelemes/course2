@@ -1,0 +1,291 @@
+/* Жалпы шрифт және түстер */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-light-custom {
+    background-color: #F5F7FA !important;
+}
+
+.text-success-custom {
+    color: #4CAF4F !important;
+}
+
+.text-secondary-custom {
+    color: #4D4D4D;
+}
+
+/* Батырмалар стилі */
+.btn-success {
+    background-color: #4CAF4F !important;
+    border-color: #4CAF4F !important;
+}
+
+.btn-success:hover {
+    background-color: #388E3C !important;
+    border-color: #388E3C !important;
+}
+
+.btn-link.text-success {
+    color: #4CAF4F !important;
+}
+
+.btn-link.text-success:hover {
+    color: #388E3C !important;
+    background-color: #E8F5E9;
+    border-radius: 6px;
+}
+
+/* Меню сілтемелерінің hover эффектісі */
+.nav-link:hover {
+    color: #4CAF4F !important;
+}
+
+/* Сурет мөлшері */
+.hero-img {
+    max-width: 390px;
+    width: 100%;
+}
+
+/* Жалпы мәтін түстері */
+.text-secondary-custom {
+    color: #4D4D4D;
+}
+
+/* Клиенттер логотиптерінің орналасуы */
+.clients-row img {
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+    max-height: 40px;
+}
+
+.clients-row img:hover {
+    opacity: 1;
+}
+
+/* Қоғамдастық бөлімінің тақырыбы */
+.community-title {
+    max-width: 540px;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+/* Карточкалар дизайны */
+.community-card {
+    background-color: #FFFFFF;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.community-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Иконка астындағы ақшыл жасыл фон */
+.icon-box {
+    width: 65px;
+    height: 65px;
+    background-color: #E8F5E9;
+    border-radius: 18px 5px 18px 5px; /* Макеттегідей жұмсақ бұрыштар жасау үшін */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Pixelgrade бөлімі */
+.pixelgrade-title {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.pixelgrade-desc {
+    line-height: 20px;
+    font-size: 14px !important;
+}
+
+.pixelgrade-img {
+    max-width: 442px;
+    width: 100%;
+}
+
+/* Статистика бөлімінің фон түсі (ақшыл сұр/көк) */
+.stats-section {
+    background-color: #F5F7FA;
+}
+
+.stats-main-title {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+/* Тақырып пен сипаттама өлшемдері */
+.section-title-custom {
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.section-desc-custom {
+    line-height: 20px;
+    font-size: 14px !important;
+}
+
+/* Иллюстрация суретінің өлшемі */
+.phone-illustration-img {
+    max-width: 442px;
+    width: 100%;
+}
+
+/* Testimonial бөлімі */
+.testimonial-text {
+    font-size: 14px !important;
+    line-height: 20px;
+}
+
+.clients-row-small img {
+    max-height: 30px;
+    opacity: 0.8;
+}
+
+/* Blog / Caring is the new marketing бөлімі */
+.max-w-title {
+    max-width: 628px;
+}
+
+.blog-card {
+    position: relative;
+    background: transparent !important;
+}
+
+.blog-img-wrapper img {
+    border-radius: 8px;
+}
+
+/* Блог карточкасының суреттің үстіне шығып тұратын эффектісі */
+.blog-floating-card {
+    width: 85%;
+    margin: -60px auto 0 auto;
+    position: relative;
+    background-color: #F5F7FA !important;
+    border-radius: 8px !important;
+    box-shadow: 0 8px 16px rgba(171, 190, 209, 0.4) !important;
+    transition: transform 0.2s ease;
+}
+
+.blog-floating-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Call to Action бөлімі */
+.max-w-cta {
+    max-width: 800px;
+}
+
+.cta-title {
+    font-size: 64px;
+    line-height: 76px;
+    color: #263238 !important;
+}
+/* Барлық бөлімдердің (Header, Main, Footer) екі жағында бірдей орын қалуы үшін */
+.container {
+    max-width: 1152px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.footer-dark {
+    background-color: #263238;
+    width: 100%;
+}
+
+.footer-dark h5 {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.footer-link {
+    color: #F5F7FA;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+    color: #4CAF4F;
+}
+
+.fs-7 {
+    font-size: 14px;
+}
+
+/* Әлеуметтік желі иконкалары */
+.social-icon {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+/* Иконкалар созылып кетпеуі үшін (мысалы 17.07 x 12.27 өлшемі сақталады) */
+.social-icon img {
+    max-width: 17px;
+    max-height: 17px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.social-icon:hover {
+    background-color: #4CAF4F;
+}
+
+/* Жаңартылған Stay up to date формасы */
+.newsletter-form {
+    max-width: 255px;
+    width: 100%;
+}
+
+.custom-email-input {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border: none !important;
+    border-radius: 8px !important;
+    color: #FFFFFF !important;
+    font-size: 14px;
+    height: 40px;
+    padding-left: 12px;
+    padding-right: 40px;
+}
+
+.custom-email-input::placeholder {
+    color: #D9DBE1 !important;
+    opacity: 1;
+}
+
+.custom-email-input:focus {
+    box-shadow: none !important;
+    background-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.custom-send-btn {
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent !important;
+    border: none !important;
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+
+.custom-send-btn:hover {
+    transform: translateY(-50%) scale(1.1);
+}
